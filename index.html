@@ -274,6 +274,44 @@ footer { margin-top:28px; font-size:11px; color:#999; text-align:center; }
     <div class="section-body" id="stabDetail"></div>
   </div>
 
+  <div class="section" id="npb-pearson">
+    <div class="section-h"><h2>NPB-to-MLB Pearson Correlations</h2></div>
+    <div class="section-body">
+      <p>Pearson r for pitchers in NPB only, pairing each NPB window with the same MLB window. This table is separate from the combined NPB, KBO, and CPBL tables. A result is marked stable when |r| ≥ 0.50 and p &lt; 0.10. The values are the NPB correlations already stored with this page, recomputed from the NPB rows included in the analysis to confirm the same r, p, and N.</p>
+      <table>
+        <thead><tr><th>Metric</th><th>Window</th><th>Pearson r</th><th>p-value</th><th>N</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td><strong>K/9</strong></td><td>Last 1 year in NPB vs first 1 year in MLB</td><td class="rnum">0.618</td><td>0.0000</td><td>46</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>ERA</strong></td><td>Last 1 year in NPB vs first 1 year in MLB</td><td class="rnum">0.491</td><td>0.0005</td><td>46</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>WHIP</strong></td><td>Last 1 year in NPB vs first 1 year in MLB</td><td class="rnum">0.414</td><td>0.0042</td><td>46</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>K/BB</strong></td><td>Last 1 year in NPB vs first 1 year in MLB</td><td class="rnum">0.360</td><td>0.0141</td><td>46</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>HR/9</strong></td><td>Last 1 year in NPB vs first 1 year in MLB</td><td class="rnum">0.359</td><td>0.0144</td><td>46</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>BB/9</strong></td><td>Last 1 year in NPB vs first 1 year in MLB</td><td class="rnum">0.320</td><td>0.0301</td><td>46</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>GB%</strong></td><td>Last 1 year in NPB vs first 1 year in MLB</td><td class="rnum">-0.028</td><td>0.9819</td><td>3</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>BB/9</strong></td><td>Last 2 years in NPB vs first 2 years in MLB</td><td class="rnum">0.671</td><td>0.0000</td><td>49</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>K/BB</strong></td><td>Last 2 years in NPB vs first 2 years in MLB</td><td class="rnum">0.616</td><td>0.0000</td><td>49</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>K/9</strong></td><td>Last 2 years in NPB vs first 2 years in MLB</td><td class="rnum">0.540</td><td>0.0001</td><td>49</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>WHIP</strong></td><td>Last 2 years in NPB vs first 2 years in MLB</td><td class="rnum">0.413</td><td>0.0032</td><td>49</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>ERA</strong></td><td>Last 2 years in NPB vs first 2 years in MLB</td><td class="rnum">0.404</td><td>0.0040</td><td>49</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>HR/9</strong></td><td>Last 2 years in NPB vs first 2 years in MLB</td><td class="rnum">0.166</td><td>0.2543</td><td>49</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>BB/9</strong></td><td>Last 3 years in NPB vs first 3 years in MLB</td><td class="rnum">0.660</td><td>0.0000</td><td>50</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>K/BB</strong></td><td>Last 3 years in NPB vs first 3 years in MLB</td><td class="rnum">0.616</td><td>0.0000</td><td>50</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>K/9</strong></td><td>Last 3 years in NPB vs first 3 years in MLB</td><td class="rnum">0.559</td><td>0.0000</td><td>50</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>ERA</strong></td><td>Last 3 years in NPB vs first 3 years in MLB</td><td class="rnum">0.443</td><td>0.0013</td><td>50</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>WHIP</strong></td><td>Last 3 years in NPB vs first 3 years in MLB</td><td class="rnum">0.408</td><td>0.0032</td><td>50</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>HR/9</strong></td><td>Last 3 years in NPB vs first 3 years in MLB</td><td class="rnum">0.254</td><td>0.0748</td><td>50</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>BB/9</strong></td><td>Career in NPB vs career in MLB</td><td class="rnum">0.645</td><td>0.0000</td><td>50</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>K/BB</strong></td><td>Career in NPB vs career in MLB</td><td class="rnum">0.567</td><td>0.0000</td><td>50</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>K/9</strong></td><td>Career in NPB vs career in MLB</td><td class="rnum">0.508</td><td>0.0002</td><td>50</td><td><span class="pill y">STABLE</span></td></tr>
+          <tr><td><strong>WHIP</strong></td><td>Career in NPB vs career in MLB</td><td class="rnum">0.376</td><td>0.0071</td><td>50</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>ERA</strong></td><td>Career in NPB vs career in MLB</td><td class="rnum">0.273</td><td>0.0550</td><td>50</td><td><span class="pill n">below</span></td></tr>
+          <tr><td><strong>HR/9</strong></td><td>Career in NPB vs career in MLB</td><td class="rnum">0.080</td><td>0.5803</td><td>50</td><td><span class="pill n">below</span></td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:11.5px;color:var(--muted);margin-top:12px">N is the number of NPB pitchers with both the NPB value and the MLB value in that window. GB% appears only for the one-year window, where both sides publish a ground-ball rate.</p>
+    </div>
+  </div>
+
 </section>
 
 <!-- ═══════════════════════════════════════════════════════════════
